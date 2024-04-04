@@ -1,0 +1,753 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Titillium Web", sans-serif;
+    font-size: 18px;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.bgcolor{
+    color: black;
+}
+
+.nav-item{
+    text-align: center;
+}
+
+.dropdown:hover > .dropdown-menu, .dropend:hover > .dropdown-menu{
+    display: block;
+    margin-top: .125em;
+
+    margin-left: .125em;
+
+}
+
+.dropend:hover > .dropdown-menu{
+    position: absolute;
+    top: 0;
+    left:100%;
+}
+
+.dropdown .dropdown-menu{
+    display: none;
+}
+
+@media screen and (min-width: 769px) {
+    .dropend:hover > .dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+        margin-left: .125em;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    
+    .dropend:hover > .dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+
+}
+
+.icon-hover {
+    color: gray;
+}
+.icon-hover:hover{
+    color: blue;
+}
+
+@media (max-width: 767px) {
+    .info {
+      display: none; /* Hide the element with class "info" on smaller screens */
+    }
+    .top{
+        position: relative;
+        top: 120px;
+    }
+    .doc-image{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .size{
+        margin:10px;
+        padding: 10px;
+    }
+
+  }
+
+  
+.btn2:hover{
+    background-color: white;
+    color: blue;
+}
+
+.btn3:hover{
+    background-color: blue;
+    color: white;
+}
+
+
+
+.left-side {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 15%;
+    
+    width: 100%;
+    padding: 20px; /* Optional: Add padding for better visibility */
+    color: #0e0d0d; /* Optional: Set text color */
+}
+
+.left{
+    text-align: left;
+    margin-left: 15%;
+    font-weight: bold;
+
+
+}
+
+
+.back{
+    background-image: url(https://skyethemes.com/html/2022/medicoz/images/icons/pattern-1.png);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Set your desired box shadow values */
+    
+   max-height: fit-content;
+   
+
+}
+
+.icon{
+    font-size: 100px;
+    color: rgb(37, 134, 203);
+    text-align: center;
+}
+
+
+.icon1{
+    font-size: 50px;
+    color: rgb(37, 134, 203);
+    text-align: center;
+}
+
+.icon1:hover{
+    background-color: rgb(37, 134, 203);
+    border-radius: 50%;
+    padding: 20px; /* Adjust the padding as needed */
+    display: inline-block;
+    color: white;
+    transform: none;
+    z-index: 1;
+    transition: transform 0.1s ease; /* Add transition for a smoother effect */
+
+
+}
+
+
+.services{
+    background-image: url("images/pattern-3.png");
+    background-image: no-repeat;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+/*LinkPost*/
+
+.link{
+    background-color: #1370b5;
+    color: white;
+  
+    height: 200px;
+    
+}
+
+.link h6{
+text-align: center;
+padding-top: 20px;
+}
+
+
+/*Audio post*/
+.audio{
+    background-image: url("images/artworks-000234249976-up7ro5-t500x500.jpg");
+    height: 200px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+
+  
+  .signature:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black; /* Set your desired text color */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-bottom: solid blue;
+    transition: transform 0.3s ease; /* Add transition for a smoother effect */
+  }
+  
+
+.doctor{
+    background-image: url("images/pattern-2.png");
+
+}
+
+.doc-image{
+    margin-right: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Set your desired box shadow values */
+}
+.appointment{
+    background-image: url("images/2.jpg");
+  
+}
+
+.appointment img{
+    position: relative;
+    top: -60px;
+}
+
+.popper{
+    position: relative;
+    top: -80px; 
+    
+
+
+}
+
+.popper:hover .card-body {
+    transform: scale(1.1);
+    z-index: 2;
+    transition: transform 0.3s ease; /* Add transition for a smoother effect */
+  }
+  
+
+  .circular-icon {
+    background-color:white;
+    border-radius: 50%;
+    padding: 20px; /* Adjust the padding as needed */
+    display: inline-block;
+    
+  }
+  
+  
+  
+
+.doc-image:hover{
+    transform: scale(1.1);
+    z-index: 2;
+    transition: transform 0.3s ease; /* Add transition for a smoother effect */
+    
+
+}
+
+.popper1{
+    position: relative;
+    top: -80px;   
+    background-image: url("https://skyethemes.com/html/2022/medicoz/images/icons/pattern-4.png");
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Set your desired box shadow values */
+    padding: 50px;
+    background-color: white;
+    
+    
+
+}
+
+.pricing{
+    background-image: url("images/pattern-4.png");
+
+}
+
+.box{
+    box-shadow: 3px 3px 5px rgba(2, 1, 1, 0.3); /* Set your desired box shadow values */
+   
+
+}
+
+.box1{
+    background-color: #add0eb;
+    padding: 10px;
+}
+
+.features{
+    list-style: none;
+    color: gray;
+    
+}
+
+.shadow{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Set your desired box shadow values */
+}
+
+.shadow:hover{
+   
+    transform: translateY(-20px);
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.bdfooter{
+    background-color:#152858;
+}
+
+.icon3{
+    border-radius: 50%;
+    padding: 2px; /* Adjust the padding as needed */
+    display: inline-block;
+    color: white;
+}
+.icon3:hover{
+    background-color: white;
+}
+
+
+/*home clanic code start */
+.back{
+background-color: #13bfb3;
+color: white;
+}
+
+
+
+.right {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    right: 0%;
+    
+}
+.color-right{
+    background-color: white;
+    width: fit-content;
+    padding: 20px;
+}
+
+.color-right button{
+    background-color:#13bfb3; ;
+}
+
+.about{
+    background-image: url("images/2.jpg");
+}
+
+.about-1 .card:hover{
+    background-color:#13bfb3; 
+    color: white;
+
+
+}
+
+.about-1-2{
+    background-image: url("images/2.jpg");
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Set your desired box shadow values */
+
+   
+
+}
+
+.about2{
+    color: #13bfb3;
+    padding: 35px;
+    margin-top: 10px;
+
+}
+
+.blog{
+    background-image: url('images/pattern-5.png');
+}
+
+.blog .col-md-4 img:hover{
+    transform: translateY(-20px);
+    transition: transform 0.3s ease;
+}
+.blog .col-md-4 i{
+    color: #13bfb3;
+}
+.blog .col-md-4 h5:hover{
+    color: #13bfb3;
+}
+
+
+.blog1{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 50px;;
+
+}
+
+.button-img{
+    top: -40px;
+    position: relative;
+    background-color: #13bfb3;
+}
+
+.blog1 .col-md-4:hover{
+    transform: translateY(-20px);
+    transition: transform 0.3s ease;
+}
+
+.timetable{
+    background-image:url("images/pattern-6.png");
+}
+
+.table-color .table th{
+    background-color: #13bfb3;
+}
+
+.doctor-info{
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 9999
+}
+
+/*About .html*/
+
+.back1{
+    background-color: #1370b5;
+}
+.banner{
+    background-image: url("images/8.jpg");
+    height: 400px;
+}
+
+/*medical*/
+
+.medical{
+    background-image: url('images/pattern-2.png');
+}
+
+.shadow1{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1); /* Set your desired box shadow values */
+
+}
+
+
+.form{
+    background-image: url("images/2.jpg");
+    
+}
+
+
+.form form{
+box-shadow: 0 0 20px rgba(0,0,0,0.10);
+}
+
+.background{
+    background-image: url("images/pattern-10.png");
+    background-color: #1370b5;
+}
+
+
+.services1{
+    background-image: url("images/pattern-3.png");
+  
+}
+
+.services1 .col-md-4:hover{
+    transform: translateY(-20px);
+    transition: transform 0.5s ease;
+
+}
+
+
+/*doctors page code*/
+
+.doctor .col-md-4:hover{
+    transform: scale(1.1);
+    z-index: 3;
+    transition: transform 0.4s ease; 
+    border-bottom: solid #1370b5;
+
+}
+
+.doctor .col-md-4{
+    box-shadow:  0 0 35px 0 rgba(0,0,0,0.07);
+    
+}
+
+.timetable1{
+    background-image: url("images/pattern-6.png");
+
+}
+.timetable1 th{
+    background-color: #1370b5;
+}
+
+/*doctor details page*/
+.doc-info .shadow1{
+    width: 75%;
+
+}
+
+.doctor2{
+    background-image: url("images/pattern-2.png");
+}
+
+
+/*department*/
+.department{
+    background-image: url("images/pattern-5.png");
+}
+
+.department img:hover{
+    transform: scale(1.1);
+    z-index: 3;
+    transition: transform 0.4s ease; 
+
+}
+
+.department i{
+    color: #1370b5;
+}
+/*pagination*/
+.pagination .page-item{
+    box-shadow:  0 0 35px 0 rgba(0,0,0,0.07);
+    border: none;
+
+}
+
+/*blog standard start*/
+.standard .card{
+    box-shadow:  0 0 35px 0 rgba(0,0,0,0.07);
+
+}
+.standard1 p,span{
+    color: grey;
+    font-size: 17px;
+}
+
+.post p{
+    font-size: 15px;
+    color: #1370b5;
+    
+}
+
+.post small{
+    font-size: 15px;
+    color: black;
+    
+}
+
+
+.tag button:hover{
+    background-color: #1370b5;
+
+}
+
+
+/*checkerboard */
+
+.CheakerBoard{
+    box-shadow:  0 0 35px 0 rgba(0,0,0,0.07);
+
+}
+
+.CheakerBoard .col-md-6 .btn-light{
+    position: relative;
+    top: -40px;
+
+
+}
+
+.CheakerBoard button:hover{
+    background-color: white;
+    color: #0e0d0d;
+
+}
+
+.CheakerBoard .col-md-6 img:hover{
+    filter: brightness(100%) saturate(100%) opacity(80%);
+    transition: filter 0.3s ease;
+}
+
+/*Two Column*/
+.two_column .col-md-6:hover{
+    filter: brightness(100%) saturate(100%) opacity(80%);
+    transform: translateY(-20px);
+    z-index: 2;
+    transition: transform 0.3s ease; /* Add transition for a smoother effect */
+    
+}
+.two_column .col-md-6 button{
+    position: relative;
+    top: -60px;
+    
+
+
+}
+
+/*Three Column*/
+.three_column .col-md-4:hover{
+    filter: brightness(100%) saturate(100%) opacity(80%);
+    transform: translateY(-20px);
+    z-index: 2;
+    transition: transform 0.3s ease; /* Add transition for a smoother effect */
+    
+}
+.three_column .col-md-4 button{
+    position: relative;
+    top: -60px;
+    
+
+
+}
+
+/*Four Column*/
+.four_column .col-md-3:hover{
+    filter: brightness(100%) saturate(100%) opacity(80%);
+    transform: translateY(-20px);
+    z-index: 2;
+    transition: transform 0.3s ease; /* Add transition for a smoother effect */
+    
+}
+.four_column .col-md-3 button{
+    position: relative;
+    top: -60px;
+    
+
+
+}
+
+/*image post*/
+
+.image{
+    border-left:solid  #1370b5;
+    margin: 2px;
+}
+
+.icon-container i:hover{
+color: #0e0d0d;
+}
+
+.author{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Box shadow with a blur radius of 10px */
+    
+}
+.author img{
+    height: 230px;
+    width: 220px;
+}
+
+/*quote post*/
+.quote{
+    background-color: white;
+    color: black;
+  
+    height: 200px;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.07);
+
+    
+}
+
+
+/*our_shop.html
+.btn-hover {
+    position: relative;
+    bottom: -20px;
+    opacity: 0;
+    transition: opacity 0.3s, bottom 0.3s;
+}
+
+.display-content:hover + .btn-hover,
+.btn-hover:hover {
+    bottom: 0;
+    opacity: 1;
+}*/
+.display-content {
+    transition: transform 0.3s ease;
+}
+
+.display-content:hover {
+    transform: translateY(-20px);
+}
+
+.btn-hover {
+    display: none;
+    position: relative;
+    bottom: -20px;
+    transition: opacity 0.3s, bottom 0.3s;
+}
+
+.display-content:hover .btn-hover {
+    display: block;
+    bottom: 0;
+    opacity: 1;
+
+}
+.shop_btn button{
+    top:-200px;
+    position: relative;
+
+}
+
+/*single shop*/
+
+.star-color i:hover{
+    color: gold;
+}
+
+.hidden{
+    display: none;
+}
+
+/*shooping cart*/
+
+.shop-table th{
+    background-color: white;
+}
+
+/*checkout */
+
+#box1 {
+    background-color: #1370b5;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  #box2 {
+    background-color: #1370b5;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  /*login*/
+
+  .login{
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.07);
+
+  }
+
+  /*contact*/
+
+  .contact{
+    background-color: #f5f5f5;
+  }
+
+  .contact .d-flex:hover{
+    transform: translateY(-20px);
+    transition: transform 0.3s ease; 
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.07);
+    border-bottom: solid #1370b5;
+    padding: 3px;
+    background-color: white;
+
+  }
+
+  
+  /*gallery*/
+  .gallery .col-md-4:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  } 
+
+
+  /*Pricing Table*/
+
+  .pricing{
+    background-image: url("images/pattern-6.png");
+  }

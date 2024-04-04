@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Sidebar Navigation</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* CSS to style the sidebar */
+    .sidebar {
+      height: 100%;
+      width: 250px;
+      position: fixed;
+      top: 0;
+      left: -250px;
+      background-color: #111;
+      padding-top: 60px;
+      transition: all 0.3s;
+    }
+
+    .sidebar ul li {
+      padding: 15px;
+      border-bottom: 1px solid #555;
+    }
+
+    .sidebar ul li a {
+      color: white;
+    }
+
+    .open {
+      left: 0;
+    }
+
+    /* CSS to style the content */
+    .content {
+      margin-left: 250px;
+      transition: all 0.3s;
+    }
+
+    /* Media query for smaller devices */
+    @media screen and (max-width: 768px) {
+      .sidebar {
+        width: 200px;
+      }
+
+      .content {
+        margin-left: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- Sidebar -->
+  <div class="sidebar" id="sidebar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Page content -->
+  <div class="content">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button type="button" id="sidebarCollapse" class="btn btn-info">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container-fluid">
+      <h2>Responsive Sidebar Navigation Example</h2>
+      <p>This is an example of a responsive sidebar navigation using Bootstrap.</p>
+    </div>
+  </div>
+
+  <!-- Bootstrap JavaScript and jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // jQuery script to toggle sidebar on button click
+    $(document).ready(function () {
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('open');
+        $('.content').toggleClass('open');
+      });
+    });
+  </script>
+
+</body>
+</html>
